@@ -1,0 +1,50 @@
+.footerMain{
+
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+   
+   
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+   
+}
+.links a{
+    margin: 10px;
+    text-decoration: none;
+    color: #6c757d;
+
+}
+.links a:hover{
+    text-decoration-line: underline ;
+}
+.contact{
+    padding: 10px;
+}
+@media screen and (max-width:980px) {
+    .case {
+       
+       margin:50px ;
+      
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+ 
+    
+}
+.case .img{
+    width: 0%;
+    margin: 0%;
+    margin-left: 0%;
+}
+.copyright{
+    text-align: center;
+    color: #6c757d;
+}

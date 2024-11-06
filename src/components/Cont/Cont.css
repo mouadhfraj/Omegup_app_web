@@ -1,0 +1,35 @@
+.cont{
+    
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    margin: 35px;
+    width: 40%;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+}
+.icon {
+    background-color:#97e0f9;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 0 50px 50px 50px;
+    
+}
+.icon img{
+    
+ 
+    width: 40%;
+    
+}
+.cont p{
+    
+    font-family: Poppins ;
+}
+ .cont:hover{ 
+
+    transform: translate(0, -6px);
+    box-shadow: 5px 5px 30px rgb(181, 179, 179);
+   
+}

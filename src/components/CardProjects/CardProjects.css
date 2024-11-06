@@ -1,0 +1,73 @@
+.sur-container{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.card-container{
+    width: 80%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -6px;
+    transition: 0.5s;
+    animation: ease-in-out;
+    margin: auto;
+    
+    height: 100%;
+}
+
+.image-container img{
+  
+    margin-top: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px -2px;
+}
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+
+}
+h3,p{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 14px;
+}
+.card-title{
+    margin-bottom: 0.5rem;
+}
+.bton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bton button{
+    padding:  0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    transform: scale(0.9);
+}
+.bton button:hover{
+    background-color: rgba(136, 209, 241, 0.197);
+    transform: scale(1);
+
+}
+.bton button a{
+    text-transform: uppercase;
+
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:980px) {
+
+.sur-container{
+    margin: 20px;
+}
+}

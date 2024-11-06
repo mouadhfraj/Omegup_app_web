@@ -1,0 +1,29 @@
+.card{
+    max-width: 100em;
+    border-radius: 20px;
+    flex-direction: row;
+    margin: 5em;
+
+}
+.card img {
+    margin-top: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.text-section{
+    max-width: 60%;
+}
+
+.cta-section .btn{
+    padding: 0.3em 0.5em;
+}

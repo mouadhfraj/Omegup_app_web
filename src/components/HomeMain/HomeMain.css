@@ -1,0 +1,51 @@
+.img {
+    width: 80%;
+    margin: 0;
+    margin-left: 30px;
+    position: right 0;
+
+}
+.titleone{
+    animation-name: moveRight;
+    animation-duration: 0.7s;
+
+    width: 120px;
+}
+.titletwo{
+    animation-name: moveLeft;
+    animation-duration: 1s;
+}
+.titlethree{
+    animation-name: moveRight;
+    animation-duration: 1.3s;}
+.joinus{
+    animation-name: moveUp;
+    animation-duration: 1s;
+}
+@keyframes  moveRight  {
+    0%{
+        opacity: 0;
+        transform:  translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);    }
+}
+@keyframes  moveLeft  {
+    0%{
+        opacity: 0;
+        transform:  translateX(-150px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);    }
+}
+@keyframes  moveUp  {
+    0%{
+        opacity: 0;
+        transform:  translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);    }
+}

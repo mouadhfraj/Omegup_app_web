@@ -1,0 +1,35 @@
+.contAbout{
+    background-color: white;
+   
+    padding: 30px;
+    margin: 35px;
+    border-radius: 20px;
+    align-items: center;
+}
+.tit{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon1 {
+
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.icon1 img{
+    transform: scale(3);
+
+
+    
+}
+ .contAbout:hover{ 
+
+    transform: translate(0, -6px);
+    box-shadow: 5px 5px 30px rgb(181, 179, 179);
+   
+}

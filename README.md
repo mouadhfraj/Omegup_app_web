@@ -43,9 +43,4 @@ The website was successfully launched, meeting all project requirements. The use
 ## Conclusion
 This internship allowed me to apply my knowledge of **React.js** in a real-world scenario, improving my skills in front-end development, performance optimization, and collaboration with a multidisciplinary team.
 
-## Installation Instructions
-To run the project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/omegup-frontend.git
